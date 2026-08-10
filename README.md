@@ -1,8 +1,8 @@
 # Leo Zhang
 
-I like mathematics and building software that proves its own results — the kind
-where you can check the claim yourself instead of taking my word for it. That
-one idea runs through everything here:
+I'm a sixth-form student in the UK. I like mathematics and building software
+that proves its own results — the kind where you can check the claim yourself
+instead of taking my word for it. That one idea runs through everything here:
 a puzzle generator that must prove a puzzle sound before emitting it, a
 consensus protocol whose safety properties are machine-checked, a renderer
 validated against what the physics predicts, and new terms for the OEIS that
@@ -71,6 +71,9 @@ checked rather than believed.
 - **[TerminalAgent](https://github.com/Leo-Y-Zhang/TerminalAgent)** — a
   terminal-based agent, built around the question of what such a thing should
   refuse to do.
+- **[EndeavourRacing](https://github.com/Leo-Y-Zhang/EndeavourRacing)** — the
+  web applications for a student motorsport team: the marketing site, a lap-time
+  prediction tool, and a project, risk and budget dashboard.
 - **[TradingEngineResearch](https://github.com/Leo-Y-Zhang/TradingEngineResearch)** —
   the research core of a systematic trading platform: a fail-closed engine, a
   default-deny validation gate, and a pre-registered alpha search whose honest
@@ -95,7 +98,7 @@ checked rather than believed.
   [leo-y-zhang.github.io/Understudy](https://leo-y-zhang.github.io/Understudy/).
 - **[ClimateMesh](https://github.com/Leo-Y-Zhang/ClimateMesh)** — a Raspberry
   Pi environmental sensing mesh with explainable early-warning risk scoring,
-  built for the PA Raspberry Pi Competition 2026.
+  built by two sixth-form students for the PA Raspberry Pi Competition 2026.
 - **[FireTurret](https://github.com/Leo-Y-Zhang/FireTurret)** — a camera-guided
   fire-suppression turret demonstrator: simulation, vision and safety interlocks
   behind one supervised control loop, with the safety case written down.
