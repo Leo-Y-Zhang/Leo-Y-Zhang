@@ -29,17 +29,16 @@ only as trustworthy as the encoding behind it, so that half is where the work is
 
 **Status, stated exactly.**
 
-- Four new terms established across four families, each shipping evidence
+- Five new terms established across five families, each shipping evidence
   alongside the claim rather than a solver's word for it.
-- **A217058 a(12) = 57 is in the OEIS: reviewed and approved, August 2026.**
-  Three further terms are submitted and under editorial review — *proposed*,
-  not approved.
-- DRAT refutation certificates are produced and independently verified for
-  small rungs of all four families. **The headline term is not yet certified**
-  at that standard, and the write-up says so.
-- A fifth term is computed and deliberately withheld: its family-consistency
-  gate was interrupted without returning a verdict, so it is excluded from the
-  submission pack until that gate runs to completion.
+- **All five are in the OEIS, approved between 6 and 13 August 2026:**
+  A217058 a(12) = 57, A217005 a(19) = 52, A217007 a(7) = 68,
+  A217236 a(4) = 84 and A217059 a(9) = 74.
+- The headline refutation is reduced to formally checked proof objects — 4,487
+  per-cube DRAT proofs, each replayed to `s VERIFIED` by `drat-trim`, plus a
+  checked proof that the cube set is exhaustive. **The other four upper bounds
+  rest on cross-checked solver verdicts rather than on checked proofs**, and
+  the write-up says exactly that.
 
 Method, encoding, symmetry breaking and the limits of what has actually been
 proved are written up in [MathRecords](https://github.com/Leo-Y-Zhang/MathRecords).
@@ -55,17 +54,17 @@ checked rather than believed.
 - **[QuantumCompiler](https://github.com/Leo-Y-Zhang/QuantumCompiler)** — a
   compiler for quantum circuits, its transformations stated as properties that
   are tested rather than asserted.
-- **[RaftSim](https://github.com/Leo-Y-Zhang/RaftSim)** — an implementation of
+- **[DeterministicRaft](https://github.com/Leo-Y-Zhang/DeterministicRaft)** — an implementation of
   the Raft consensus protocol whose safety properties are machine-checked under
   deterministic simulation, so a violation reproduces from a seed instead of
   appearing once and vanishing.
 - **[PathTracer](https://github.com/Leo-Y-Zhang/PathTracer)** — a physically
   based renderer written with no dependencies, validated against what the physics
   predicts in advance.
-- **[StatsReferee](https://github.com/Leo-Y-Zhang/StatsReferee)** — a checker
+- **[QuantumClaimReferee](https://github.com/Leo-Y-Zhang/QuantumClaimReferee)** — a checker
   for statistical claims, aimed at the gap between a number being computed and a
   number being meaningful.
-- **[PuzzleForge](https://github.com/Leo-Y-Zhang/PuzzleForge)** — chess tooling:
+- **[ChessPuzzleForge](https://github.com/Leo-Y-Zhang/ChessPuzzleForge)** — chess tooling:
   an engine, an analyser, and a puzzle generator that must prove a puzzle sound
   before it will emit it.
 - **[TerminalAgent](https://github.com/Leo-Y-Zhang/TerminalAgent)** — a
@@ -115,8 +114,16 @@ whatever numerical method the problem happens to need.
 
 ## Currently
 
-Extending the same machine-checkable approach to integer sequences on board
-graphs, and reading towards Cambridge and Imperial Computer Science for 2028
-entry.
+The same machine-checkable approach applied to other integer sequences.
+[GraphRecords](https://github.com/Leo-Y-Zhang/GraphRecords) turns bishop
+arrangements into rook arrangements and has put eleven new terms into six OEIS
+sequences on board graphs.
+[RadoRecords](https://github.com/Leo-Y-Zhang/RadoRecords) carries the 2-colour
+Rado numbers for `x_1^2 + ... + x_n^2 = z^2` from a(30) to a(60) with
+DRAT-certified refutations — a(31) approved, the rest a proposed draft awaiting
+an editor as I write this.
+[Refute](https://github.com/Leo-Y-Zhang/Refute) is the second opinion on those
+certificates: an independent DRAT/LRAT checker in Rust, with a browser
+playground where the files never leave the tab.
 
 Contact: open an issue on any repository here.
