@@ -152,8 +152,8 @@ whatever numerical method the problem happens to need.
 
 The same machine-checkable approach applied to other integer sequences.
 [GraphRecords](https://github.com/Leo-Y-Zhang/GraphRecords) turns bishop
-arrangements into rook arrangements and has put eleven new terms into six OEIS
-sequences on board graphs.
+arrangements into rook arrangements and has put fourteen new terms into seven
+OEIS sequences on board graphs.
 [RadoRecords](https://github.com/Leo-Y-Zhang/RadoRecords) carries the 2-colour
 Rado numbers for `x_1^2 + ... + x_n^2 = z^2` from a(30) to a(60) with
 DRAT-certified refutations — a(31) approved, the rest a proposed draft awaiting
