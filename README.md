@@ -1,3 +1,7 @@
+<div align="center">
+  <img alt="Hello, World! / w(6; 2,2,2,2,4,5) = 84 / s VERIFIED" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=24&pause=1200&center=true&vCenter=true&width=560&height=48&color=58A6FF&lines=Hello%2C%20World!;w(6%3B%202%2C2%2C2%2C2%2C4%2C5)%20%3D%2084;s%20VERIFIED" />
+</div>
+
 # Leo Zhang
 
 I'm a sixth-form student in the UK. I like mathematics and building software
@@ -125,5 +129,27 @@ an editor as I write this.
 [Refute](https://github.com/Leo-Y-Zhang/Refute) is the second opinion on those
 certificates: an independent DRAT/LRAT checker in Rust, with a browser
 playground where the files never leave the tab.
+
+## Technologies I'm learning :books:
+
+![Lean 4](https://img.shields.io/badge/-Lean%204-2E2E2E?style=flat-square)
+![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=ffffff)
+![RISC-V](https://img.shields.io/badge/-RISC--V-283272?style=flat-square&logo=riscv&logoColor=ffffff)
+![C++](https://img.shields.io/badge/-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=ffffff)
+
+## Technologies I build with :hammer_and_wrench:
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=ffffff)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=ffffff)
+![kissat / CaDiCaL](https://img.shields.io/badge/-kissat%20%2F%20CaDiCaL-4B32C3?style=flat-square)
+![DRAT / LRAT](https://img.shields.io/badge/-DRAT%20%2F%20LRAT-6E40C9?style=flat-square)
+![LaTeX](https://img.shields.io/badge/-LaTeX-008080?style=flat-square&logo=latex&logoColor=ffffff)
+
+![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=ffffff)
+![Vitest](https://img.shields.io/badge/-Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=ffffff)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=ffffff)
+![GNU Bash](https://img.shields.io/badge/-GNU%20Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=ffffff)
+![Raspberry Pi](https://img.shields.io/badge/-Raspberry%20Pi-C51A4A?style=flat-square&logo=raspberrypi&logoColor=ffffff)
+![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=ffffff)
 
 Contact: open an issue on any repository here.
