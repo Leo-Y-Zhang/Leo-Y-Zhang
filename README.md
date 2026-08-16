@@ -1,6 +1,6 @@
 <div align="center">
-  <img alt="Hello, World!  |  w(6; 2,2,2,2,4,5) = 84  |  s VERIFIED"
-       src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=900&center=true&vCenter=true&multiline=true&repeat=false&width=520&height=118&color=58A6FF&lines=Hello%2C%20World!;w(6%3B%202%2C2%2C2%2C2%2C4%2C5)%20%3D%2084;s%20VERIFIED" />
+  <img alt="Hello, World!  |  A217236(4) = 84  |  s VERIFIED"
+       src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=900&center=true&vCenter=true&multiline=true&repeat=false&width=520&height=118&color=58A6FF&lines=Hello%2C%20World!;A217236(4)%20%3D%2084;s%20VERIFIED" />
 </div>
 
 # Leo Zhang
