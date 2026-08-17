@@ -29,6 +29,7 @@ ship with their certificates.
   <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=ffffff" />
   <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=ffffff" />
   <img alt="Rust" src="https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=ffffff" />
+  <img alt="Go" src="https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=ffffff" />
   <img alt="C++" src="https://img.shields.io/badge/-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=ffffff" />
   <img alt="LaTeX" src="https://img.shields.io/badge/-LaTeX-008080?style=flat-square&logo=latex&logoColor=ffffff" />
 </p>
@@ -94,6 +95,16 @@ checked rather than believed.
   the Raft consensus protocol whose safety properties are machine-checked under
   deterministic simulation, so a violation reproduces from a seed instead of
   appearing once and vanishing.
+- **[Splitbrain](https://github.com/Leo-Y-Zhang/Splitbrain)** — a
+  distributed-systems test harness in Go that drives a real key-value cluster
+  through seeded network partitions and machine-checks whether what the clients
+  saw was even possible, with the linearizability checker validated against a
+  brute-force oracle.
+- **[Osmium](https://github.com/Leo-Y-Zhang/Osmium)** — an operating system for
+  x86_64, written from scratch in Rust. It boots on BIOS and UEFI and drops to
+  user mode through a system-call path; its privacy properties are enforced by
+  boot-time self-tests rather than promised — no network stack exists and freed
+  memory is zeroed, both checked in CI on every push.
 - **[PathTracer](https://github.com/Leo-Y-Zhang/PathTracer)** — a physically
   based renderer written with no dependencies, validated against what the physics
   predicts in advance.
