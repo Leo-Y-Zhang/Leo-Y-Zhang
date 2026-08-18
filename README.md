@@ -102,10 +102,11 @@ checked rather than believed.
   brute-force oracle.
 - **[Osmium](https://github.com/Leo-Y-Zhang/Osmium)** — an operating system for
   x86_64, written from scratch in Rust. It boots on BIOS and UEFI and
-  preemptively schedules user programs in ring 3, proven in CI by a program
-  that never yields losing the CPU anyway; its privacy properties are enforced
-  by boot-time self-tests rather than promised — no network stack exists and
-  freed memory is zeroed, both checked on every push.
+  preemptively schedules user programs in ring 3, each in its own address
+  space, with fault isolation proven in CI by a program that page-faults
+  beside a healthy one and is terminated alone; its privacy properties are
+  enforced by boot-time self-tests rather than promised — no network stack
+  exists and freed memory is zeroed, both checked on every push.
 - **[PathTracer](https://github.com/Leo-Y-Zhang/PathTracer)** — a physically
   based renderer written with no dependencies, validated against what the physics
   predicts in advance.
