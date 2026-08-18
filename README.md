@@ -101,10 +101,11 @@ checked rather than believed.
   saw was even possible, with the linearizability checker validated against a
   brute-force oracle.
 - **[Osmium](https://github.com/Leo-Y-Zhang/Osmium)** — an operating system for
-  x86_64, written from scratch in Rust. It boots on BIOS and UEFI and drops to
-  user mode through a system-call path; its privacy properties are enforced by
-  boot-time self-tests rather than promised — no network stack exists and freed
-  memory is zeroed, both checked in CI on every push.
+  x86_64, written from scratch in Rust. It boots on BIOS and UEFI and
+  preemptively schedules user programs in ring 3, proven in CI by a program
+  that never yields losing the CPU anyway; its privacy properties are enforced
+  by boot-time self-tests rather than promised — no network stack exists and
+  freed memory is zeroed, both checked on every push.
 - **[PathTracer](https://github.com/Leo-Y-Zhang/PathTracer)** — a physically
   based renderer written with no dependencies, validated against what the physics
   predicts in advance.
