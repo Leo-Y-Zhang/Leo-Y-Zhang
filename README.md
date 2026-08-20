@@ -171,8 +171,8 @@ arrangements into rook arrangements and has put fourteen new terms into seven
 OEIS sequences on board graphs.
 [RadoRecords](https://github.com/Leo-Y-Zhang/RadoRecords) carries the 2-colour
 Rado numbers for `x_1^2 + ... + x_n^2 = z^2` from a(30) to a(60) with
-DRAT-certified refutations — a(31) approved, the rest a proposed draft awaiting
-an editor as I write this.
+DRAT-certified refutations — all thirty terms, a(31) through a(60), approved
+and published in the OEIS.
 [Refute](https://github.com/Leo-Y-Zhang/Refute) is the second opinion on those
 certificates: an independent DRAT/LRAT checker in Rust, with a browser
 playground where the files never leave the tab.
