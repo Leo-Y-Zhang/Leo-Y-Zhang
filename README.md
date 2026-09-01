@@ -71,11 +71,17 @@ only as trustworthy as the encoding behind it, so that half is where the work is
 - **All five are in the OEIS, approved between 6 and 13 August 2026:**
   A217058 a(12) = 57, A217005 a(19) = 52, A217007 a(7) = 68,
   A217236 a(4) = 84 and A217059 a(9) = 74.
-- The headline refutation is reduced to formally checked proof objects — 4,487
-  per-cube DRAT proofs, each replayed to `s VERIFIED` by `drat-trim`, plus a
-  checked proof that the cube set is exhaustive. **The other four upper bounds
-  rest on cross-checked solver verdicts rather than on checked proofs**, and
-  the write-up says exactly that.
+- **Every upper bound is reduced to formally checked proof objects** — 23,851
+  per-cube DRAT proofs across the five families, each replayed to `s VERIFIED`
+  by `drat-trim`, and each family carrying a checked composition proof that its
+  cube set covers the whole assignment tree.
+- The equal-target families were the hard ones. The cube generator dropped
+  colour-permutation images, which is sound when *searching*, because some
+  other prefix is the image, but is not a *refutation* — so the per-cube proofs
+  never covered those branches. Taking colour symmetry out of the cube set
+  fixes it, and the effect is measured rather than argued: cube sets are
+  byte-identical with and without it for the differing-target families, and
+  exactly double for the equal-target ones.
 
 Method, encoding, symmetry breaking and the limits of what has actually been
 proved are written up in [MathRecords](https://github.com/Leo-Y-Zhang/MathRecords).
