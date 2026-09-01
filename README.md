@@ -176,5 +176,11 @@ and published in the OEIS.
 [Refute](https://github.com/Leo-Y-Zhang/Refute) is the second opinion on those
 certificates: an independent DRAT/LRAT checker in Rust, with a browser
 playground where the files never leave the tab.
+[OEISHeadroom](https://github.com/Leo-Y-Zhang/OEISHeadroom) asks a different
+question — which sequences stop where a brute force ran out of patience rather
+than where the mathematics gets hard — and then extends them. Seventy-one new
+terms across A319381, A323586 and A325555 were approved on 31 August 2026, each
+gated on a program that first reproduces every already-published term of its
+sequence.
 
 Contact: open an issue on any repository here.
