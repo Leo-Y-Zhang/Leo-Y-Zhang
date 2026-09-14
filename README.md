@@ -188,7 +188,9 @@ than where the mathematics gets hard — and then extends them. One hundred and
 twenty-three new terms across seven sequences (A319381, A323586, A325555,
 A325556, A347414, A353403 and A337114) were approved between 31 August and
 2 September 2026, each gated on a program that first reproduces every
-already-published term of its sequence. Across all of the above, 174 accepted
-terms in 21 OEIS sequences.
+already-published term of its sequence. The four projects above account for
+172 accepted terms in 20 OEIS sequences; the overall total, re-derived from
+the live OEIS database on 2 September 2026, is 174 accepted terms in 21 OEIS
+sequences, including earlier contributions not itemized here.
 
 Contact: open an issue on any repository here.
