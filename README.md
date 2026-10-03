@@ -13,6 +13,16 @@ consensus protocol whose safety properties are machine-checked, a renderer
 validated against what the physics predicts, and new terms for the OEIS that
 ship with their certificates.
 
+## Try it in your browser
+
+- [**Tilefish**](https://leo-y-zhang.github.io/ScrabbleEngine/): play Scrabble against my engine, with clocks, hints and a move-by-move review ([source](https://github.com/Leo-Y-Zhang/ScrabbleEngine))
+- [**Understudy**](https://leo-y-zhang.github.io/Understudy/): interview rehearsal with on-device face and speech analysis ([source](https://github.com/Leo-Y-Zhang/Understudy))
+- [**Refute**](https://leo-y-zhang.github.io/Refute/): an independent checker for DRAT and LRAT unsatisfiability proofs ([source](https://github.com/Leo-Y-Zhang/Refute))
+- [**MeltSim**](https://leo-y-zhang.github.io/MeltSim/): melting, freezing and boiling from one enthalpy law ([source](https://github.com/Leo-Y-Zhang/MeltSim))
+- [**VisionCheckR**](https://leo-y-zhang.github.io/VisionCheckR/): an offline vision self-check; nothing leaves the tab ([source](https://github.com/Leo-Y-Zhang/VisionCheckR))
+- [**Endeavour Racing**](https://leo-y-zhang.github.io/EndeavourRacing/website/): a student motorsport team's website, lap-time game and project dashboard ([source](https://github.com/Leo-Y-Zhang/EndeavourRacing))
+- [**My site**](https://leo-y-zhang.github.io/PersonalWebsite/), with the verified OEIS results
+
 <p align="center">
   <b>Proof and verification</b>
   <br />
