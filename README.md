@@ -104,6 +104,13 @@ Roughly one idea, applied repeatedly: a result is worth what its verification is
 worth. Each of these is public, and each is built so that what it claims can be
 checked rather than believed.
 
+- **[Tilefish](https://github.com/Leo-Y-Zhang/ScrabbleEngine)** — a
+  championship-style Scrabble engine in one C++ file, using only the standard
+  library, with every shortcut in its simulation checked against brute force.
+  Under a neutral referee it won 57.1% of 760 CSW24 games against MAGPIE and is
+  level with Macondo at BestBot's settings: 48.6% of 832 games at 60 seconds a
+  move, four threads each. [Play it in the
+  browser](https://leo-y-zhang.github.io/ScrabbleEngine/).
 - **[QuantumCompiler](https://github.com/Leo-Y-Zhang/QuantumCompiler)** — a
   compiler for quantum circuits, its transformations stated as properties that
   are tested rather than asserted.
@@ -181,7 +188,12 @@ whatever numerical method the problem happens to need.
 
 ## Currently
 
-The same machine-checkable approach applied to other integer sequences.
+[Tilefish](https://github.com/Leo-Y-Zhang/ScrabbleEngine): measuring a
+Scrabble engine against the strongest public ones under a neutral referee,
+with every match logged and the opposing engines pinned to recorded versions.
+
+Alongside it, the same machine-checkable approach applied to other integer
+sequences.
 [GraphRecords](https://github.com/Leo-Y-Zhang/GraphRecords) turns bishop
 arrangements into rook arrangements and has put fourteen new terms into seven
 OEIS sequences on board graphs.
