@@ -15,7 +15,7 @@ ship with their certificates.
 
 ## Try it in your browser
 
-- [**Tilefish**](https://leo-y-zhang.github.io/ScrabbleEngine/): play Scrabble against my engine, with clocks, hints and a move-by-move review ([source](https://github.com/Leo-Y-Zhang/ScrabbleEngine))
+- [**Tilefish**](https://leo-y-zhang.github.io/TileFish/): play Scrabble against my engine, with clocks, hints and a move-by-move review ([source](https://github.com/Leo-Y-Zhang/ScrabbleEngine))
 - [**Understudy**](https://leo-y-zhang.github.io/Understudy/): interview rehearsal with on-device face and speech analysis ([source](https://github.com/Leo-Y-Zhang/Understudy))
 - [**Refute**](https://leo-y-zhang.github.io/Refute/): an independent checker for DRAT and LRAT unsatisfiability proofs ([source](https://github.com/Leo-Y-Zhang/Refute))
 - [**MeltSim**](https://leo-y-zhang.github.io/MeltSim/): melting, freezing and boiling from one enthalpy law ([source](https://github.com/Leo-Y-Zhang/MeltSim))
@@ -110,7 +110,7 @@ checked rather than believed.
   Under a neutral referee it won 57.1% of 760 CSW24 games against MAGPIE and is
   level with Macondo at BestBot's settings: 48.6% of 832 games at 60 seconds a
   move, four threads each. [Play it in the
-  browser](https://leo-y-zhang.github.io/ScrabbleEngine/).
+  browser](https://leo-y-zhang.github.io/TileFish/).
 - **[QuantumCompiler](https://github.com/Leo-Y-Zhang/QuantumCompiler)** — a
   compiler for quantum circuits, its transformations stated as properties that
   are tested rather than asserted.
