@@ -17,7 +17,7 @@ ship with their certificates.
 
 - [**Tilefish**](https://leo-y-zhang.github.io/TileFish/): play Scrabble against my engine, with clocks, hints and a move-by-move review ([source](https://github.com/Leo-Y-Zhang/ScrabbleEngine))
 - [**Understudy**](https://leo-y-zhang.github.io/Understudy/): interview rehearsal with on-device face and speech analysis ([source](https://github.com/Leo-Y-Zhang/Understudy))
-- [**Refute**](https://leo-y-zhang.github.io/Refute/): an independent checker for DRAT and LRAT unsatisfiability proofs ([source](https://github.com/Leo-Y-Zhang/Refute))
+- [**Refute**](https://leo-y-zhang.github.io/Refute/): an independent checker for DRAT and LRAT unsatisfiability proofs ([source](https://github.com/Leo-Y-Zhang/Refute)); the rules it applies are proved sound in Lean 4 in [Ratified](https://github.com/Leo-Y-Zhang/Ratified), written up as a [preprint](https://aixiv.online/abs/2610.03288)
 - [**MeltSim**](https://leo-y-zhang.github.io/MeltSim/): melting, freezing and boiling from one enthalpy law ([source](https://github.com/Leo-Y-Zhang/MeltSim))
 - [**VisionCheckR**](https://leo-y-zhang.github.io/VisionCheckR/): an offline vision self-check; nothing leaves the tab ([source](https://github.com/Leo-Y-Zhang/VisionCheckR))
 - [**Endeavour Racing**](https://leo-y-zhang.github.io/EndeavourRacing/website/): a student motorsport team's website, lap-time game and project dashboard ([source](https://github.com/Leo-Y-Zhang/EndeavourRacing))
