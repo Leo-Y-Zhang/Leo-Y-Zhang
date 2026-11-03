@@ -1,218 +1,31 @@
-<div align="center">
-  <img alt="Hello, World!  |  A217236(4) = 84  |  s VERIFIED"
-       src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&pause=900&center=true&vCenter=true&multiline=true&repeat=false&width=520&height=118&color=58A6FF&lines=Hello%2C%20World!;A217236(4)%20%3D%2084;s%20VERIFIED" />
-</div>
-
 # Leo Zhang
 
-I'm a sixth-form student in the UK. I like mathematics and building software
-that proves its own results — the kind where you can check the claim yourself
-instead of taking my word for it. That one idea runs through everything here:
-a puzzle generator that must prove a puzzle sound before emitting it, a
-consensus protocol whose safety properties are machine-checked, a renderer
-validated against what the physics predicts, and new terms for the OEIS that
-ship with their certificates.
+Sixth-form student in the UK. I like combinatorics, chess, Scrabble and
+Classical Greek, and most of what's here started from one of those.
 
-## Try it in your browser
+## Sequences
 
-- [**Tilefish**](https://leo-y-zhang.github.io/TileFish/): play Scrabble against my engine, with clocks, hints and a move-by-move review ([source](https://github.com/Leo-Y-Zhang/ScrabbleEngine))
-- [**Understudy**](https://leo-y-zhang.github.io/Understudy/): interview rehearsal with on-device face and speech analysis ([source](https://github.com/Leo-Y-Zhang/Understudy))
-- [**Refute**](https://leo-y-zhang.github.io/Refute/): an independent checker for DRAT and LRAT unsatisfiability proofs ([source](https://github.com/Leo-Y-Zhang/Refute)); the rules it applies are proved sound in Lean 4 in [Ratified](https://github.com/Leo-Y-Zhang/Ratified), written up as a [preprint](https://aixiv.online/abs/2610.03288)
-- [**MeltSim**](https://leo-y-zhang.github.io/MeltSim/): melting, freezing and boiling from one enthalpy law ([source](https://github.com/Leo-Y-Zhang/MeltSim))
-- [**VisionCheckR**](https://leo-y-zhang.github.io/VisionCheckR/): an offline vision self-check; nothing leaves the tab ([source](https://github.com/Leo-Y-Zhang/VisionCheckR))
-- [**Endeavour Racing**](https://leo-y-zhang.github.io/EndeavourRacing/website/): a student motorsport team's website, lap-time game and project dashboard ([source](https://github.com/Leo-Y-Zhang/EndeavourRacing))
-- [**My site**](https://leo-y-zhang.github.io/PersonalWebsite/), with the verified OEIS results
+Most of my time has gone on extending integer sequences with SAT solvers:
+mixed van der Waerden numbers, 2-colour Rado numbers and a few board-graph
+counting problems. 174 new terms across 21 sequences have been accepted into
+the [OEIS](https://oeis.org). Each lower bound comes with an explicit example
+you can check by hand, and each upper bound was checked with a DRAT proof that
+a separate checker can replay.
 
-<p align="center">
-  <b>Proof and verification</b>
-  <br />
-  <img alt="Lean 4" src="https://img.shields.io/badge/-Lean%204-2E2E2E?style=flat-square" />
-  <img alt="kissat / CaDiCaL" src="https://img.shields.io/badge/-kissat%20%2F%20CaDiCaL-4B32C3?style=flat-square" />
-  <img alt="DRAT / LRAT" src="https://img.shields.io/badge/-DRAT%20%2F%20LRAT-6E40C9?style=flat-square" />
-  <img alt="Vitest" src="https://img.shields.io/badge/-Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=ffffff" />
-  <img alt="Playwright" src="https://img.shields.io/badge/-Playwright-2EAD33?style=flat-square" />
-</p>
+- [MathRecords](https://github.com/Leo-Y-Zhang/MathRecords): five new mixed van der Waerden numbers
+- [OEISHeadroom](https://github.com/Leo-Y-Zhang/OEISHeadroom): sequences that stopped because a brute force got slow
+- [RadoRecords](https://github.com/Leo-Y-Zhang/RadoRecords): thirty new terms of A250026
+- [GraphRecords](https://github.com/Leo-Y-Zhang/GraphRecords): turn the board 45 degrees and bishops become rooks
 
-<p align="center">
-  <b>Languages</b>
-  <br />
-  <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=ffffff" />
-  <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=ffffff" />
-  <img alt="Rust" src="https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=ffffff" />
-  <img alt="Go" src="https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=ffffff" />
-  <img alt="C++" src="https://img.shields.io/badge/-C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=ffffff" />
-  <img alt="LaTeX" src="https://img.shields.io/badge/-LaTeX-008080?style=flat-square&logo=latex&logoColor=ffffff" />
-</p>
+## Games and languages
 
-<p align="center">
-  <b>Tools and platforms</b>
-  <br />
-  <img alt="Vite" src="https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=ffffff" />
-  <img alt="Docker" src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=ffffff" />
-  <img alt="GNU Bash" src="https://img.shields.io/badge/-GNU%20Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=ffffff" />
-  <img alt="GitHub Actions" src="https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=ffffff" />
-  <img alt="Raspberry Pi" src="https://img.shields.io/badge/-Raspberry%20Pi-C51A4A?style=flat-square&logo=raspberrypi&logoColor=ffffff" />
-  <img alt="RISC-V" src="https://img.shields.io/badge/-RISC--V-283272?style=flat-square&logo=riscv&logoColor=ffffff" />
-</p>
+- [Tilefish](https://github.com/Leo-Y-Zhang/TileFish): a Scrabble engine you can [play in the browser](https://leo-y-zhang.github.io/TileFish/)
+- [ChessPuzzleForge](https://github.com/Leo-Y-Zhang/ChessPuzzleForge): mate-in-N puzzles, each re-checked by its own engine
+- [GreekScansion](https://github.com/Leo-Y-Zhang/GreekScansion): scans dactylic hexameter and says "ambiguous" rather than guessing
 
-## Mixed van der Waerden numbers
+## Team projects
 
-I have been computing new terms in families of mixed van der Waerden numbers
-whose OEIS entries were last extended by Tanbir Ahmed in 2012 and were still
-unchanged when I checked them against the OEIS API on 29 July 2026.
+- [ClimateMesh](https://github.com/Leo-Y-Zhang/ClimateMesh): a Raspberry Pi sensor network, built by a team of two for the PA Raspberry Pi Competition 2026
+- [EndeavourRacing](https://github.com/Leo-Y-Zhang/EndeavourRacing): software for a student motorsport team
 
-For colour targets `t_1..t_r` and a budget of `j` wildcards,
-
-```
-w(j+r; 2^j, t_1..t_r) = 1 + max{ n : [1,n] splits into j singleton classes and
-                                 r colour classes, where colour class i contains
-                                 no t_i-term arithmetic progression }
-```
-
-Each new term needs two independent halves. The lower bound is a colouring, and
-a colouring is a certificate — you read the string and apply the definition, no
-solver involved. The upper bound asserts that *no* colouring exists, which is
-only as trustworthy as the encoding behind it, so that half is where the work is.
-
-**Status, stated exactly.**
-
-- Five new terms established across five families, each shipping evidence
-  alongside the claim rather than a solver's word for it.
-- **All five are in the OEIS, approved between 6 and 13 August 2026:**
-  A217058 a(12) = 57, A217005 a(19) = 52, A217007 a(7) = 68,
-  A217236 a(4) = 84 and A217059 a(9) = 74.
-- **Every upper bound is reduced to formally checked proof objects** — 23,851
-  per-cube DRAT proofs across the five families, each replayed to `s VERIFIED`
-  by `drat-trim`, and each family carrying a checked composition proof that its
-  cube set covers the whole assignment tree.
-- The equal-target families were the hard ones. The cube generator dropped
-  colour-permutation images, which is sound when *searching*, because some
-  other prefix is the image, but is not a *refutation* — so the per-cube proofs
-  never covered those branches. Taking colour symmetry out of the cube set
-  fixes it, and the effect is measured rather than argued: cube sets are
-  byte-identical with and without it for the differing-target families, and
-  exactly double for the equal-target ones.
-
-Method, encoding, symmetry breaking and the limits of what has actually been
-proved are written up in [MathRecords](https://github.com/Leo-Y-Zhang/MathRecords).
-The standalone certificate verifier depends on nothing but the Python standard
-library.
-
-## What I build
-
-Roughly one idea, applied repeatedly: a result is worth what its verification is
-worth. Each of these is public, and each is built so that what it claims can be
-checked rather than believed.
-
-- **[Tilefish](https://github.com/Leo-Y-Zhang/ScrabbleEngine)** — a
-  championship-style Scrabble engine in one C++ file, using only the standard
-  library, with every shortcut in its simulation checked against brute force.
-  Under a neutral referee it won 57.1% of 760 CSW24 games against MAGPIE and is
-  level with Macondo at BestBot's settings: 48.6% of 832 games at 60 seconds a
-  move, four threads each. [Play it in the
-  browser](https://leo-y-zhang.github.io/TileFish/).
-- **[QuantumCompiler](https://github.com/Leo-Y-Zhang/QuantumCompiler)** — a
-  compiler for quantum circuits, its transformations stated as properties that
-  are tested rather than asserted.
-- **[DeterministicRaft](https://github.com/Leo-Y-Zhang/DeterministicRaft)** — an implementation of
-  the Raft consensus protocol whose safety properties are machine-checked under
-  deterministic simulation, so a violation reproduces from a seed instead of
-  appearing once and vanishing.
-- **[Splitbrain](https://github.com/Leo-Y-Zhang/Splitbrain)** — a
-  distributed-systems test harness in Go that drives a real key-value cluster
-  through seeded network partitions and machine-checks whether what the clients
-  saw was even possible, with the linearizability checker validated against a
-  brute-force oracle.
-- **[Osmium](https://github.com/Leo-Y-Zhang/Osmium)** — an operating system for
-  x86_64, written from scratch in Rust. It boots on BIOS and UEFI and
-  preemptively schedules user programs in ring 3, each in its own address
-  space, with fault isolation proven in CI by a program that page-faults
-  beside a healthy one and is terminated alone. It has a shell and a RAM-only
-  filesystem, and its privacy properties are enforced by boot-time self-tests
-  rather than promised — no network stack exists, freed memory is zeroed, and
-  every CI boot checksums the disk image around a run that deliberately
-  creates files, so nothing can quietly reach the disk.
-- **[PathTracer](https://github.com/Leo-Y-Zhang/PathTracer)** — a physically
-  based renderer written with no dependencies, validated against what the physics
-  predicts in advance.
-- **[QuantumClaimReferee](https://github.com/Leo-Y-Zhang/QuantumClaimReferee)** — a checker
-  for statistical claims, aimed at the gap between a number being computed and a
-  number being meaningful.
-- **[ChessPuzzleForge](https://github.com/Leo-Y-Zhang/ChessPuzzleForge)** — chess tooling:
-  an engine, an analyser, and a puzzle generator that must prove a puzzle sound
-  before it will emit it.
-- **[TerminalAgent](https://github.com/Leo-Y-Zhang/TerminalAgent)** — a
-  terminal-based agent, built around the question of what such a thing should
-  refuse to do.
-- **[EndeavourRacing](https://github.com/Leo-Y-Zhang/EndeavourRacing)** — the
-  web applications for a student motorsport team: the marketing site, a lap-time
-  prediction tool, and a project, risk and budget dashboard.
-- **[TradingEngineResearch](https://github.com/Leo-Y-Zhang/TradingEngineResearch)** —
-  the research core of a systematic trading platform: a fail-closed engine, a
-  default-deny validation gate, and a pre-registered alpha search whose honest
-  result was negative.
-- **[MeltSim](https://github.com/Leo-Y-Zhang/MeltSim)** — an interactive
-  thermodynamics sandbox: enthalpy-method melting, solidification and boiling in
-  the browser, with zero runtime dependencies.
-- **[IaCScanner](https://github.com/Leo-Y-Zhang/IaCScanner)** — an offline
-  infrastructure-as-code misconfiguration scanner: Terraform, Kubernetes,
-  Actions and Dockerfile rule packs, SARIF output, and a fail-only-on-new CI
-  baseline.
-- **[DocRedact](https://github.com/Leo-Y-Zhang/DocRedact)** — a local-first,
-  policy-driven document redaction CLI that never sends a document anywhere.
-- **[VisionCheckR](https://github.com/Leo-Y-Zhang/VisionCheckR)** — a
-  privacy-first educational vision self-check that runs entirely in the browser,
-  with a pure, unit-tested scoring core. Not a medical device.
-- **[Understudy](https://github.com/Leo-Y-Zhang/Understudy)** — an
-  interview rehearsal studio that runs entirely in the browser: on-device
-  face and speech analysis with an annotated replay of your answer. The
-  privacy claim is enforced rather than promised — a CI test records a real
-  session and fails the build if any request leaves the origin. Live at
-  [leo-y-zhang.github.io/Understudy](https://leo-y-zhang.github.io/Understudy/).
-- **[ClimateMesh](https://github.com/Leo-Y-Zhang/ClimateMesh)** — a Raspberry
-  Pi environmental sensing mesh with explainable early-warning risk scoring,
-  built by two sixth-form students for the PA Raspberry Pi Competition 2026.
-- **[FireTurret](https://github.com/Leo-Y-Zhang/FireTurret)** — a camera-guided
-  fire-suppression turret demonstrator: simulation, vision and safety interlocks
-  behind one supervised control loop, with the safety case written down.
-- **[FilingsLab](https://github.com/Leo-Y-Zhang/FilingsLab)** — an SEC-filings
-  event-study backtester: disclosure ingestion, deflation-robust validation, and
-  a research loop that must prove an edge before believing it.
-
-Some work stays private: a live web application with real users, and the
-live-trading side of the platform whose research core is published above.
-Neither is private for want of finishing.
-
-Mostly Python and TypeScript, with SAT solvers, DRAT/LRAT proof checking, and
-whatever numerical method the problem happens to need.
-
-## Currently
-
-[Tilefish](https://github.com/Leo-Y-Zhang/ScrabbleEngine): measuring a
-Scrabble engine against the strongest public ones under a neutral referee,
-with every match logged and the opposing engines pinned to recorded versions.
-
-Alongside it, the same machine-checkable approach applied to other integer
-sequences.
-[GraphRecords](https://github.com/Leo-Y-Zhang/GraphRecords) turns bishop
-arrangements into rook arrangements and has put fourteen new terms into seven
-OEIS sequences on board graphs.
-[RadoRecords](https://github.com/Leo-Y-Zhang/RadoRecords) carries the 2-colour
-Rado numbers for `x_1^2 + ... + x_n^2 = z^2` from a(30) to a(60) with
-DRAT-certified refutations — all thirty terms, a(31) through a(60), approved
-and published in the OEIS.
-[Refute](https://github.com/Leo-Y-Zhang/Refute) is the second opinion on those
-certificates: an independent DRAT/LRAT checker in Rust, with a browser
-playground where the files never leave the tab.
-[OEISHeadroom](https://github.com/Leo-Y-Zhang/OEISHeadroom) asks a different
-question — which sequences stop where a brute force ran out of patience rather
-than where the mathematics gets hard — and then extends them. One hundred and
-twenty-three new terms across seven sequences (A319381, A323586, A325555,
-A325556, A347414, A353403 and A337114) were approved between 31 August and
-2 September 2026, each gated on a program that first reproduces every
-already-published term of its sequence. The four projects above account for
-172 accepted terms in 20 OEIS sequences; the overall total, re-derived from
-the live OEIS database on 2 September 2026, is 174 accepted terms in 21 OEIS
-sequences, including earlier contributions not itemized here.
-
-Contact: open an issue on any repository here.
+[Website](https://leo-y-zhang.github.io/PersonalWebsite/)
