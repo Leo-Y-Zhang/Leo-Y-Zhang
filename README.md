@@ -34,4 +34,4 @@ Most of the code in these repositories was written with AI coding tools
 (Claude and Codex). The OEIS terms were reviewed by the OEIS editors before
 they were accepted.
 
-[Website](https://leo-y-zhang.github.io/PersonalWebsite/)
+[Website](https://leo-y-zhang.github.io/PersonalWebsite/) · [ORCID](https://orcid.org/0009-0008-1145-7969)
