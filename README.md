@@ -28,4 +28,10 @@ a separate checker can replay.
 - [ClimateMesh](https://github.com/Leo-Y-Zhang/ClimateMesh): a Raspberry Pi sensor network, built by a team of two for the PA Raspberry Pi Competition 2026
 - [EndeavourRacing](https://github.com/Leo-Y-Zhang/EndeavourRacing): software for a student motorsport team
 
+## How this was made
+
+Most of the code in these repositories was written with AI coding tools
+(Claude and Codex). The OEIS terms were reviewed by the OEIS editors before
+they were accepted.
+
 [Website](https://leo-y-zhang.github.io/PersonalWebsite/)
