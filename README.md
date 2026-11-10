@@ -1,7 +1,7 @@
 # Leo Zhang
 
-Sixth-form student in the UK. I like combinatorics, chess, Scrabble and
-Classical Greek, and most of what's here started from one of those.
+I like combinatorics, chess, Scrabble and Classical Greek, and most of
+what's here started from one of those.
 
 ## Sequences
 
